@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+    font-family: 'Garamond', serif;
+    line-height: 1.8;
+    margin: 0;
+    background-color: #fdfcf8; /* A very light, elegant cream */
+    color: #3a3a3a; /* A soft, dark gray for text */
+    font-size: 27px;
+}
+
+/* Header Styling */
+header {
+    background-color: #001f3f; /* A deep, royal navy blue */
+    color: #f4d03f; /* A rich, elegant gold */
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #f4d03f;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 45px; /* Slightly larger than requested for impact */
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4 );
+}
+
+header .subtitle {
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    margin: 10px 0;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+header .based-on {
+    font-size: 22px;
+    font-style: italic;
+    color: #cccccc;
+    margin-top: 15px;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border-left: 5px solid #b8860b; /* A dark, antique gold */
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color: #001f3f; /* Royal Navy */
+    border-bottom: 2px solid #f4d03f; /* Gold */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px; /* Slightly larger than requested for hierarchy */
+    color: #8B4513; /* SaddleBrown - a rich, earthy color */
+    margin-top: 0;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-left: 3px solid #8B4513;
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+strong {
+    color: #b8860b; /* Dark Gold */
+    font-weight: bold;
+}
+
+/* Example and Illustration Blocks */
+.example, .illustration {
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #ddd;
+    border-left: 4px solid #8B4513; /* SaddleBrown */
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 4px;
+}
+
+.example h4, .illustration h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: #001f3f;
+    margin-top: 0;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.illustration p {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    font-size: 24px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #001f3f; /* Royal Navy */
+    color: #cccccc;
+    font-size: 20px;
+    border-top: 5px solid #f4d03f; /* Gold */
+}
